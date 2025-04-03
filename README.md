@@ -1,4 +1,4 @@
-# SO
+# Rockyou.txt wordlist
 ```bash
 scp -P 5000 clara@venus.hackmyvm.eu:~/protected.zip ~/
 39YziWp5gSvgQN9
