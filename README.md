@@ -8,4 +8,4 @@ cd john/src
 ./configure && make
 
 ./zip2john protected.zip > pass
-john pass --wordlist=rockyou.txt
+./john pass --wordlist=rockyou.txt
