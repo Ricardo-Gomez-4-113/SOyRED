@@ -7,7 +7,8 @@ sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev
 
 git clone https://github.com/openwall/john
 cd john/src
-./configure && make
+nproc
+./configure && make -j  
 
 ./zip2john protected.zip > pass
 ./john pass --wordlist=rockyou.txt
